@@ -11,7 +11,7 @@ import os
 
 recognizer=sr.Recognizer()  # Recognizes what we'll say.
 engine=pyttsx3.init()
-newsapikey="af296070871d4715bf66c1781d3a5a7f"
+newsapikey="{USE YOUR OWN API KEY}"
 
 def old_speak(text):
     engine.say(text)
@@ -155,4 +155,5 @@ if __name__=="__main__":
         except Exception as e:
             print("Audio Error; {0}".format(e))
             
+
 
